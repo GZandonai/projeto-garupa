@@ -1,7 +1,48 @@
- /*Este arquivo estiliza serve para definir estilos gerais do site*/ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root {
+    --green1: #4BBEA3;
+    --green2: #0AB7AC;
+    --green3: #026F68;
+    --green4: #3AE47F;
+    --pink1: #E81E63;
+    --pink2: #FC5185;
+    --pink2: #9C113B;
+    --red1: #FF3547;
+    --purple1: #A87CE3;
+    --purple2: #673FE5;
+    --purple3: #4312DD;
+    --gray1: #989898;
+    --gray2: #606060;
+    --gray3: #2E2E2E;
+}
 
+body {
+    font-family: 'Roboto' , sans-serif ;
+    height: 100vh;
+}
 
+header {
+    margin: 5px;
+    padding: 5px;
+    background-image: url(/img/header-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 468px;
+    width: 1440px;
+    left: -3493px;
+    top: -3530px;
+    border-radius: 2px;
+}
 
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
