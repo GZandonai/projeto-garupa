@@ -39,10 +39,12 @@ header {
     top: -3530px;
     border-radius: 2px;
 }
-
-.nav-links {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    gap: 2rem;
+}
+.nav-links {
+     
 }
