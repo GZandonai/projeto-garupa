@@ -40,17 +40,17 @@ header {
     padding:1px;
     background-image: url(/img/header-img.png);
     background-repeat: no-repeat;
-    border-radius: 2px;
-    
+    background-size: cover ;
+    background-position: center center ;
+
 }
+
 
 .titulo-header {
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    margin-left: 90px;
    
-  
 
 }
 
@@ -61,19 +61,18 @@ header {
     color: #ffff;
     background-color: var(--gray2);
     height: 68px ;
-    width: 1350px;
-    margin-top: 339px;
-    
+    width: auto;
+    margin-top: 440px;
     
 }
+
 
 
 .paragrafo-header mark {
     background-color:var(--green2);
     color: #ffff;
-    padding: 6px;
+    padding: 3px;
     border-radius: 3px;
-    margin: 5px;
 }
 
 nav {
@@ -83,19 +82,42 @@ nav {
     gap: 2rem;
     margin-top: 2rem;
 }
+nav a {
+    position:relative;
+
+}
 
 
 .nav-links {
-    transform: translate(-3px, 5px);
     color: var(--gray3);
-    padding: 0px;
+    padding: 8px;
    
 }
 
  a:hover {
     background-color: #4bbea336;
-    padding: 10px;
     border-radius: 5px;
-    transform: scale(1.0);
     color: var(--green2);
+}
+
+a::after {
+    content:  " ";
+    width: 0%;
+    height: 3px;
+    background-color: var(--purple2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+   
+
+}
+
+a:hover::after {
+    width: 100%;
+
+}
+
+section {
+    margin-top: 20px;
 }
