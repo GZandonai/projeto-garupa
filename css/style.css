@@ -120,4 +120,37 @@ a:hover::after {
 
 section {
     margin-top: 20px;
+   
+  
+}
+
+.titulo-section {
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.card-mot{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 10px;
+   
+  
+
+
+}
+
+.lista-mot {
+    box-shadow: 3px 3px 3px 1px var(--gray1),
+    1px 1px 1px 1px var(--gray1),
+    1px 1px 1px 1px var(--gray1);
+    border-radius: 8px;
+
+   
+   
+}
+
+.lista-mot ul,h3 {
+    padding: 15px;
 }
