@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style-type: none;
 }
 :root {
     --green1: #4BBEA3;
@@ -118,39 +119,41 @@ a:hover::after {
 
 }
 
+/*Seção Cards*/
+
 section {
     margin-top: 20px;
-   
-  
 }
 
-.titulo-section {
+.titulo-artigo {
+    padding: 1rem;
     margin-left: 5rem;
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content:flex-start;
+    
 }
 
 .card-mot{
-   display: flex;
-   justify-content: space-evenly;
-   margin: 10px;
-   
-  
-
-
+    display: flex;
+    justify-content: space-between; 
 }
 
 .lista-mot {
+    padding: 2rem;
+    margin: auto;
+}
+
+.lista-mot ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+
+/*.lista-mot {
     box-shadow: 3px 3px 3px 1px var(--gray1),
     1px 1px 1px 1px var(--gray1),
     1px 1px 1px 1px var(--gray1);
     border-radius: 8px;
-
-   
-   
-}
-
-.lista-mot ul,h3 {
-    padding: 15px;
-}
+}*/
