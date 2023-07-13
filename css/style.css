@@ -119,7 +119,7 @@ a:hover::after {
 
 }
 
-/*Seção Cards*/
+/*Seção Cards mot*/
 
 section {
     margin-top: 20px;
@@ -157,3 +157,45 @@ li {
     1px 1px 1px 1px var(--gray1);
     border-radius: 8px;
 }*/
+
+/*Seção cars pax*/
+
+.card-pax{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.lista-pax {
+    padding: 2rem;
+    margin: auto;
+}
+
+.lista-pax ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+/*Seção internos*/
+
+.card-internos{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.lista-internos {
+    padding: 2rem;
+    margin: auto;
+}
+
+.lista-internos ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 1rem;
+}
