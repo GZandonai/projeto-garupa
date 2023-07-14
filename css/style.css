@@ -95,17 +95,18 @@ nav a {
    
 }
 
- a:hover {
+/*links de navegação*/
+ #link-mot:hover {
     background-color: #4bbea336;
     border-radius: 5px;
-    color: var(--green2);
+    color: var(--green3);
 }
 
-a::after {
+#link-mot::after {
     content:  " ";
     width: 0%;
     height: 3px;
-    background-color: var(--purple2);
+    background-color: var(--green1);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -114,11 +115,56 @@ a::after {
 
 }
 
-a:hover::after {
+#link-mot:hover::after {
     width: 100%;
 
 }
 
+
+#link-pax:hover {
+    background-color: #4bbea336;
+    border-radius: 5px;
+    color: var(--red1);
+}
+
+#link-pax::after {
+    content:  " ";
+    width: 0%;
+    height: 3px;
+    background-color: var(--red1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+
+}
+
+#link-pax:hover::after {
+    width: 100%;
+}
+
+#link-interno:hover {
+    background-color: #4bbea336;
+    border-radius: 5px;
+    color: var(--purple2);
+}
+
+#link-interno::after {
+    content:  " ";
+    width: 0%;
+    height: 3px;
+    background-color: var(--purple1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+
+}
+
+#link-interno:hover::after {
+    width: 100%;
+
+}
 /*Seção Cards mot*/
 
 section {
@@ -158,7 +204,7 @@ li {
     border-radius: 8px;
 }*/
 
-/*Seção cars pax*/
+/*Seção cards pax*/
 
 .card-pax{
     display: flex;
