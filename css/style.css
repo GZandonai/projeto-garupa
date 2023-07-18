@@ -198,7 +198,7 @@ section {
 
 .card-mot{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .lista-mot {
@@ -215,6 +215,14 @@ li {
     margin-bottom: 1rem;
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #fff;
+    background-color: var(--green1);
+}
 
 /*.lista-mot {
     box-shadow: 3px 3px 3px 1px var(--gray1),
