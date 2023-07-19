@@ -213,8 +213,12 @@ section {
 
 li {
     margin-bottom: 1rem;
+    
 }
-
+.lista-mot a{
+    padding: 4px;
+    border-radius: 5px;
+}
 .link-item-mot {
     color: inherit;
 }
@@ -229,7 +233,7 @@ li {
     1px 1px 1px 1px var(--gray1),
     1px 1px 1px 1px var(--gray1);
     border-radius: 8px;
-}*/
+}
 
 /*Seção cards pax*/
 
