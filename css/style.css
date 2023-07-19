@@ -248,6 +248,14 @@ li {
     margin-bottom: 15px;
 }
 
+.link-item-pax {
+    color: inherit;
+}
+
+.link-item-pax:hover {
+    color: #fff;
+    background-color: var(--red1);
+}
 
 /*Seção internos*/
 
@@ -264,4 +272,13 @@ li {
 .lista-internos ul {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.link-item-internos {
+    color: inherit;
+}
+
+.link-item-internos:hover {
+    color: #fff;
+    background-color: var(--purple1);
 }
