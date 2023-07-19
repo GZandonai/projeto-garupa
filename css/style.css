@@ -215,9 +215,9 @@ li {
     margin-bottom: 1rem;
     
 }
-.lista-mot a{
+.lista-mot a {
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .link-item-mot {
     color: inherit;
@@ -253,7 +253,7 @@ li {
 }
  .lista-pax a {
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 2px;
  }
 
 .link-item-pax {
@@ -284,7 +284,7 @@ li {
 
 .lista-internos a {
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 2px;
  }
 
 .link-item-internos {
