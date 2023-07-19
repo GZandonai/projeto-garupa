@@ -215,11 +215,11 @@ li {
     margin-bottom: 1rem;
 }
 
-a {
+.link-item-mot {
     color: inherit;
 }
 
-a:hover {
+.link-item-mot:hover {
     color: #fff;
     background-color: var(--green1);
 }
@@ -248,9 +248,6 @@ a:hover {
     margin-bottom: 15px;
 }
 
-li {
-    margin-bottom: 1rem;
-}
 
 /*Seção internos*/
 
@@ -267,8 +264,4 @@ li {
 .lista-internos ul {
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-li {
-    margin-bottom: 1rem;
 }
