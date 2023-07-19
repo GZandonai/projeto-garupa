@@ -251,6 +251,10 @@ li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+ .lista-pax a {
+    padding: 4px;
+    border-radius: 5px;
+ }
 
 .link-item-pax {
     color: inherit;
@@ -277,6 +281,11 @@ li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.lista-internos a {
+    padding: 4px;
+    border-radius: 5px;
+ }
 
 .link-item-internos {
     color: inherit;
