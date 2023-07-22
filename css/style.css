@@ -42,10 +42,13 @@ header {
     margin: 0px;
     padding:1px;
     background-image: url(/img/header-img.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position:center ;
-
+    background-size: cover;
+    background-position: center ;
+    /* ideal é aplicar as propriedades abaixo, porém é necessário que seja feito a responsividade de todo body
+    height: 100%;
+    width: 100%; */ 
+   
 }
 
 .header-section {
@@ -58,14 +61,6 @@ header {
 .titulo-header {
     position: relative;
     top: 50px;
-}
-
-.dataHora-header {
-    position:relative;
-    top:200px;
-    left: 15px;
-    color:var(--green1);
-    
 }
 
 .paragrafo-header {
