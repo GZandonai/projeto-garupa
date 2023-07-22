@@ -28,7 +28,6 @@ body {
     font-family: 'Roboto' , sans-serif ;
     height: 100vh;
     font-size: 16px;
-
 }
 
 h1 {
@@ -48,25 +47,21 @@ header {
     /* ideal é aplicar as propriedades abaixo, porém é necessário que seja feito a responsividade de todo body
     height: 100%;
     width: 100%; */ 
-   
 }
 
 .header-section {
     display: flex;
     justify-content: center;
     margin-top:50px;
-
 }
 
 .titulo-header {
-    background-color: var(--pink1);
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 5px;
     position: relative;
     top: 50px;
-
-    
 }
+
 
 
 
@@ -109,7 +104,6 @@ nav a {
 .nav-links {
     color: var(--gray3);
     padding: 8px;
-   
 }
 
  #link-mot:hover {
@@ -127,13 +121,10 @@ nav a {
     bottom: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-   
-
 }
 
 #link-mot:hover::after {
     width: 100%;
-
 }
 
 
@@ -152,7 +143,6 @@ nav a {
     bottom: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-
 }
 
 #link-pax:hover::after {
@@ -174,27 +164,20 @@ nav a {
     bottom: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-
 }
 
 #link-interno:hover::after {
     width: 100%;
-
 }
 
-
-
-
 /*Seção Cards mot*/
-
 section {
     margin-top: 20px;
 }
 
 .titulo-artigo {
     padding: 1rem;
-    margin-left: 5rem;
-    
+    margin-left: 5rem; 
 }
 
 .card-mot{
@@ -213,13 +196,14 @@ section {
 }
 
 li {
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem; 
 }
+
 .lista-mot a {
     padding: 4px;
     border-radius: 2px;
 }
+
 .link-item-mot {
     color: inherit;
 }
@@ -237,7 +221,6 @@ li {
 }*/
 
 /*Seção cards pax*/
-
 .card-pax{
     display: flex;
     justify-content: space-between; 
@@ -267,7 +250,6 @@ li {
 }
 
 /*Seção internos*/
-
 .card-internos{
     display: flex;
     justify-content: space-between; 
