@@ -134,14 +134,14 @@ nav a {
 #link-pax:hover {
     background-color: #4bbea336;
     border-radius: 5px;
-    color: var(--red1);
+    color: var(--pink1);
 }
 
 #link-pax::after {
     content:  " ";
     width: 0%;
     height: 3px;
-    background-color: var(--red1);
+    background-color: var(--pink1);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -257,7 +257,7 @@ li {
 
 .link-item-pax:hover {
     color: #fff;
-    background-color: var(--red1);
+    background-color: var(--pink1);
 }
 
 /*Seção internos*/
