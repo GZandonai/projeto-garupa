@@ -59,26 +59,32 @@ header {
 }
 
 .titulo-header {
+    background-color: var(--pink1);
+    border-radius: 5px;
+    padding: 5px;
     position: relative;
     top: 50px;
+
+    
 }
+
+
 
 .paragrafo-header {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffff;
-    background-color: var(--gray4);
+    background-color: var(--green1);
     height: 68px ;
     width: auto;
-    margin-top: 440px;
-    
+    margin-top: 460px;
 }
 
 
 
 .paragrafo-header mark {
-    background-color:var(--green2);
+    background-color:var(--pink1);
     color: #ffff;
     padding: 3px;
     border-radius: 3px;
