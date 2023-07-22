@@ -40,7 +40,7 @@ h1 {
 header {
     margin: 0px;
     padding:1px;
-    background-image: url(/img/header-img.jpg);
+    background-image: url(/img/header-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
@@ -55,16 +55,6 @@ header {
     margin-top:50px;
 }
 
-.titulo-header {
-    border-radius: 3px;
-    padding: 5px;
-    position: relative;
-    top: 50px;
-}
-
-
-
-
 .paragrafo-header {
     display: flex;
     justify-content: center;
@@ -75,8 +65,6 @@ header {
     width: auto;
     margin-top: 460px;
 }
-
-
 
 .paragrafo-header mark {
     background-color:var(--pink1);
